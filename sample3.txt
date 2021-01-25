@@ -1,0 +1,24 @@
+An Enigma machine is any of a family of related electro-mechanical rotor cipher machines 
+used for the encryption and decryption of secret messages. Enigma was invented by German 
+engineer Arthur Scherbius at the end of World War I. The early models were used 
+commercially from the early 1920s, and adopted by military and government services 
+of several countries most notably by Nazi Germany before and during World War II.
+Several different Enigma models were produced, but the German military models are 
+the ones most commonly discussed.
+In December 1932, the Polish Cipher Bureau first broke Germany's military Enigma ciphers.
+Five weeks before the outbreak of World War II, on 25 July 1939, in Warsaw, they 
+presented their Enigma-decryption techniques and equipment to French and British 
+military intelligence.From 1938, additional complexity was repeatedly 
+added to the machines, making the initial decryption techniques increasingly 
+unsuccessful. Nonetheless, the Polish breakthrough represented a vital basis for the 
+later British effort. During the war, British codebreakers were able to decrypt a vast 
+number of messages that had been enciphered using the Enigma. The intelligence gleaned
+from this source, codenamed "Ultra" by the British, was a substantial aid to the Allied 
+war effort.
+The exact influence of Ultra on the course of the war is debated; an oft-repeated 
+assessment is that decryption of German ciphers hastened the end of the European war 
+by two years.Winston Churchill told the United Kingdom's King George VI after World 
+War II: "It was thanks to Ultra that we won the war."
+Although Enigma had some cryptographic weaknesses, in practice it was only in 
+combination with procedural flaws, operator mistakes, captured key tables and hardware, 
+that Allied cryptanalysts were able to be so successful.

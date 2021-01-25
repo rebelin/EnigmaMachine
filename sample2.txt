@@ -1,0 +1,12 @@
+How the two-rotor Enigma machine works:
+ Rotors 1 (the inner wheel) and 2 (the middle wheel) can rotate clockwise, while the 
+ backplate (the outer wheel) is stationary. The numbers around the backplate indicate 
+ positions.
+To encrypt a character, call it the input character, using this machine, locate the 
+input character on rotor 1. Next, identify the character on the backplate at the same 
+position. Let's call this the backplate character. Now locate the backplate character 
+on rotor 2. The encryption of the input character is the character on the backplate at 
+the same position as the backplate character's position on rotor 2. When rotor 1 
+completes a full revolution by returning to its original positioning, rotor 2 advances 
+one position in the clockwise direction. This is similar to how the minutes and hours 
+advance on a clock.
