@@ -30,13 +30,13 @@ public class EnigmaMachine
 		output = args[1];
 		String strR1 = args[2];
 		String strR2 = args[3];
-    String strR3 = args[4];
+    		String strR3 = args[4];
 		String strRB = args[5];
 
 		// Convert strings to ints for rotors starting values
 		int R1 = Integer.parseInt(strR1);
 		int R2 = Integer.parseInt(strR2);
-    int R3 = Integer.parseInt(strR3);
+    		int R3 = Integer.parseInt(strR3);
 		int RB = Integer.parseInt(strRB);
 
 		// Declare the input array
