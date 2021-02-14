@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+# EnigmaMachine
+This program simulates a three-rotor Enigma machine, as used by German forces in WWII, to encrypt the message. In short, the machine reads in an input message from a file, encrypts the message, and writes the encrypted message or cipher text to an output file.
 
-You can use the [editor on GitHub](https://github.com/rebelin/EnigmaMachine/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## More on How it Works
+The Enigma machine has three rotors and a backplate; rotors 1, 2, and 3 (in to out) can rotate clockwise, while the backplate (the outer wheel) is stationary. The command line arguments determine each of rotor's initial position (from where to start encryption). 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+For each character in the text file, the machine first locates the position of the initial character on rotor 1. The backplate value at the same index (as rotor 1) determines the character to find on rotor 2. This process repeats for rotor 3. The backplate value at the rotor 3 position is the encrypted character.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rebelin/EnigmaMachine/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+After each encryption of one letter, rotor 1 rotates clockwise by one position. When rotor 1 completes a full revolution by returning to its original positioning, rotor 2 advances one position in the clockwise direction. Similarly, rotor 3 increments by one in the clockwise direction when rotor 2 completes a full rotation. (This is similar to how the minutes and hours advance on a clock.)
